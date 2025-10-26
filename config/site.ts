@@ -3,7 +3,7 @@ export const siteConfig = {
   authorName: "Jaden Isaac",
   username: "jadenisaac2005",
   description:
-    "Naman Barkiya's portfolio - A modern, responsive Next.js portfolio for developers. This open-source template can be customized to showcase your own skills, projects, and professional experience.",
+    "Jaden Isaac's portfolio - A modern, responsive Next.js portfolio for developers. This open-source template can be customized to showcase your own skills, projects, and professional experience.",
   url: "https://jadenisaac.com",
   links: {
     twitter: "https://x.com/namanbarkiya",
@@ -15,7 +15,7 @@ export const siteConfig = {
   logoIcon:
     "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357294/assets/naman-logo.png",
   keywords: [
-    "Naman Barkiya",
+    "Jaden Isaac",
     "Full Stack Developer",
     "Web Developer Portfolio",
     "Next.js portfolio template",

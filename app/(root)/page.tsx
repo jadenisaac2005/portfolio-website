@@ -81,7 +81,7 @@ export default function IndexPage() {
             width={100}
             sizes="100vw"
             className="bg-primary rounded-full mb-0 h-auto md:mb-2 w-[60%] max-w-[16rem] border-8 border-primary"
-            alt="Naman Barkiya - Full Stack Developer Portfolio"
+            alt="Jaden Isaac - Full Stack Developer Portfolio"
             priority
           />
           <AnimatedText
@@ -89,7 +89,7 @@ export default function IndexPage() {
             delay={0.2}
             className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl"
           >
-            Naman Barkiya
+            Jaden Isaac
           </AnimatedText>
           <AnimatedText
             as="h3"
@@ -111,7 +111,7 @@ export default function IndexPage() {
                 href={"https://github.com/namanbarkiya"}
                 target="_blank"
                 className={cn(buttonVariants({ size: "lg" }))}
-                aria-label="View Naman Barkiya's GitHub profile"
+                aria-label="View Jaden Isaac's GitHub profile"
               >
                 <Icons.gitHub className="w-4 h-4 mr-2" /> GitHub
               </Link>
@@ -126,7 +126,7 @@ export default function IndexPage() {
                     size: "lg",
                   })
                 )}
-                aria-label="Contact Naman Barkiya"
+                aria-label="Contact Jaden Isaac"
               >
                 <Icons.contact className="w-4 h-4 mr-2" /> Contact
               </Link>
