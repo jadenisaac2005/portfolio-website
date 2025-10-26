@@ -25,7 +25,7 @@ export default function ContactForm() {
     >
       <div className="text-xl font-medium">Have an opportunity or idea?</div>
       <p className="text-muted-foreground">
-        I'm always open to discussing new projects, creative ideas, or
+        I&apos;m always open to discussing new projects, creative ideas, or
         opportunities to be part of your vision.
       </p>
 

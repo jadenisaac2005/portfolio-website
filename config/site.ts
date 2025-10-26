@@ -5,6 +5,7 @@ export const siteConfig = {
   description:
     "Jaden Isaac's portfolio - A modern, responsive Next.js portfolio for developers. This open-source template can be customized to showcase your own skills, projects, and professional experience.",
   url: "https://jadenisaac.com",
+  email:"jadenisaacdev@gmail.com",
   links: {
     twitter: "https://x.com/namanbarkiya",
     github: "https://github.com/jadenisaac2005",
