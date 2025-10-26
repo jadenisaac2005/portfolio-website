@@ -1,13 +1,13 @@
 export const siteConfig = {
-  name: "Naman Barkiya | Developer Portfolio",
-  authorName: "Naman Barkiya",
-  username: "namanbarkiya",
+  name: "Jaden Isaac | Developer Portfolio",
+  authorName: "Jaden Isaac",
+  username: "jadenisaac2005",
   description:
     "Naman Barkiya's portfolio - A modern, responsive Next.js portfolio for developers. This open-source template can be customized to showcase your own skills, projects, and professional experience.",
-  url: "https://nbarkiya.xyz",
+  url: "https://jadenisaac.com",
   links: {
     twitter: "https://x.com/namanbarkiya",
-    github: "https://github.com/namanbarkiya",
+    github: "https://github.com/jadenisaac2005",
   },
   ogImage: "https://nbarkiya.xyz/profile-img.jpg",
   iconIco:

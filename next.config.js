@@ -1,24 +1,30 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  async headers() {
-    return [
-      {
-        source: "/api/sb-contact",
-        headers: [
-          { key: "Access-Control-Allow-Credentials", value: "true" },
-          {
-            key: "Access-Control-Allow-Methods",
-            value: "GET,DELETE,PATCH,POST,PUT",
-          },
-          {
-            key: "Access-Control-Allow-Headers",
-            value:
-              "X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version",
-          },
-        ],
-      },
-    ];
-  },
+    async headers() {
+        return [
+        {
+            source: "/api/sb-contact",
+            headers: [
+            { key: "Access-Control-Allow-Credentials", value: "true" },
+            {
+                key: "Access-Control-Allow-Methods",
+                value: "GET,DELETE,PATCH,POST,PUT",
+            },
+            {
+                key: "Access-Control-Allow-Headers",
+                value:
+                "X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version",
+            },
+            ],
+            output: 'export',
+
+            // Add this block if you use <Image> components
+            images: {
+                unoptimized: true,
+            },
+        },
+        ];
+    },
 };
 
 module.exports = nextConfig;
